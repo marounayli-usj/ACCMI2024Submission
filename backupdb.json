@@ -1,0 +1,364 @@
+[
+    {
+        "fe06f88c-5ab4-48e3-9c28-b15d39c0e8c8": {
+            "base_url": "https://wikipedia.org",
+            "test_name": "wikipediaSearch",
+            "date_created": "2023-03-29 19:38:07",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "href": "",
+                        "target": "_blank"
+                    },
+                    "value": "English",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "English",
+                        "attrs": {
+                            "href": "",
+                            "target": "_blank"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "396aebdb-0441-47cc-8bb7-1ead4258a606": {
+            "base_url": "https://leetcode.com",
+            "test_name": "LeetcodeSignUp",
+            "date_created": "2023-03-29 19:42:51",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "href": "signup.html",
+                        "title": "Sign Up"
+                    },
+                    "value": "Create Account",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "Create Account",
+                        "attrs": {
+                            "href": "signup.html",
+                            "title": "Sign Up"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "8dc2fcb6-913c-4367-b526-4ca7c4e477ef": {
+            "base_url": "https://leetcode.com",
+            "test_name": "LeetcodeSignUpFull",
+            "date_created": "2023-03-29 19:46:45",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "href": "signup.html",
+                        "title": "Sign Up"
+                    },
+                    "value": "Create Account",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "Create Account",
+                        "attrs": {
+                            "href": "signup.html",
+                            "title": "Sign Up"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "name": "username"
+                    },
+                    "actionarg": "testusertest",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "name": "username"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "password",
+                        "name": "first_password",
+                        "value": ""
+                    },
+                    "actionarg": "testuserpass",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "password",
+                            "name": "first_password",
+                            "value": ""
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "password",
+                        "placeholder": "Confirm Password"
+                    },
+                    "actionarg": "testuserpass",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "password",
+                            "placeholder": "Confirm Password"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "email",
+                        "placeholder": "email address"
+                    },
+                    "actionarg": "test@test.com",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "email",
+                            "placeholder": "email address"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "a18fcceb-6a13-4106-b118-6dd7c449ab3e": {
+            "base_url": "https://amazon.com",
+            "test_name": "AmazonSearch",
+            "date_created": "2023-03-29 19:58:00",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "search",
+                        "placeholder": "Search Amazon"
+                    },
+                    "actionarg": "RTX 4090\\n",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "search",
+                            "placeholder": "Search Amazon"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "aa034ae0-c5e7-45b7-a2a7-d955d5f10ef2": {
+            "base_url": "https://amazon.com",
+            "test_name": "AmazonSearchandSell",
+            "date_created": "2023-03-29 19:59:40",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "search",
+                        "placeholder": "Search Amazon"
+                    },
+                    "actionarg": "RTX 4090\\n",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "search",
+                            "placeholder": "Search Amazon"
+                        }
+                    }
+                },
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "name": "sell",
+                        "value": "sell",
+                        "href": ""
+                    },
+                    "value": "Sell",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "Sell",
+                        "attrs": {
+                            "name": "sell",
+                            "value": "sell",
+                            "href": ""
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "f0b0fb2d-5e7d-4b5d-a1e6-aae9e766d801": {
+            "base_url": "https://discord.com",
+            "test_name": "discordSignUpTest",
+            "date_created": "2023-03-30 01:14:41",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "href": "",
+                        "class": "signup-link"
+                    },
+                    "value": "Sign Up",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "Sign Up",
+                        "attrs": {
+                            "href": "",
+                            "class": "signup-link"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "text",
+                        "name": "username_or_email",
+                        "placeholder": "Enter your username or email"
+                    },
+                    "actionarg": "test@test.com",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "text",
+                            "name": "username_or_email",
+                            "placeholder": "Enter your username or email"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "password"
+                    },
+                    "actionarg": "testpassword",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "password"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "43e2a1c6-d4e9-4ec2-af4b-19fef6b30086": {
+            "base_url": "https://discord.com",
+            "test_name": "discordLatestSignIn",
+            "date_created": "2023-03-30 01:19:34",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "class": "sign-in-button",
+                        "position": "top-right"
+                    },
+                    "value": "Sign In",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "Sign In",
+                        "attrs": {
+                            "class": "sign-in-button",
+                            "position": "top-right"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "text",
+                        "name": "username",
+                        "placeholder": "username"
+                    },
+                    "actionarg": "test@test.com",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "text",
+                            "name": "username",
+                            "placeholder": "username"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "password",
+                        "placeholder": "password"
+                    },
+                    "actionarg": "testpassword",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "password",
+                            "placeholder": "password"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]

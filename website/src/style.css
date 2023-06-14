@@ -1,0 +1,196 @@
+.main-section {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: relative;
+}
+
+.main-section h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.main-section input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  box-shadow: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.main-section button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Hover effect */
+.main-section button:hover {
+  background-color: #3e8e41;
+}
+
+/* Active effect */
+.main-section button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+.main-section input:focus {
+  outline: none;
+  border-color: #0085ff;
+}
+
+.sentence-base {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sentence-base option {
+  font-size: 16px;
+}
+
+.sentence-base button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sentence-base button:hover {
+  background-color: #0056b3;
+}
+
+.sentence-base h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.add-sentence {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 2px 
+}
+
+/* Style the select elements */
+.sentence-base select {
+  border: 2px solid #ccc;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: transparent;
+  color: #555;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-size: 14px 8px;
+  background-position: right center;
+}
+
+/* Style the option elements */
+.sentence-base option {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style the selected option */
+.sentence-base select option:checked {
+  background-color: #6a7eef;
+  color: #fff;
+}
+
+/* Style the dropdown arrow */
+.sentence-base select::-ms-expand {
+  display: none;
+}
+
+.sentence-base select:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.sentence-base select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #6a7eef;
+  background-color: #f2f2f2;
+}
+
+/* Style the submit button */
+.sentence-base button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #6a7eef;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the submit button on hover */
+.sentence-base button:hover {
+  background-color: #4957cc;
+}
+
+.sentence-base input {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sentence-base input:focus {
+  outline: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 0px 4px #007bff;
+}
+
+.sentence-base input::placeholder {
+  color: #aaa;
+}
+
+/* Style the input fields on hover */
+.sentence-base input:hover {
+  border: 1px solid #007bff;
+}
+
+/* Style the input fields on focus */
+.sentence-base input:focus {
+  border: 1px solid #007bff;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}

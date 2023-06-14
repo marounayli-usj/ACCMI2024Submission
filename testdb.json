@@ -1,0 +1,358 @@
+[
+    {
+        "a2926c3d-708c-4364-8a92-1aa416c5e00f": {
+            "base_url": "https://discord.com",
+            "test_name": "discordSignIn",
+            "date_created": "2023-03-30 01:28:44",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "button",
+                    "description": {
+                        "class": "login-button",
+                        "position": "top-right"
+                    },
+                    "value": "Login",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "button",
+                        "value": "Login",
+                        "attrs": {
+                            "class": "login-button",
+                            "position": "top-right"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "name": "username",
+                        "placeholder": "username"
+                    },
+                    "actionarg": "username",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "name": "username",
+                            "placeholder": "username"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "password",
+                        "placeholder": "password"
+                    },
+                    "actionarg": "password",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "password",
+                            "placeholder": "password"
+                        }
+                    }
+                },
+                {
+                    "action": "click",
+                    "tag": "button",
+                    "description": {
+                        "type": "submit",
+                        "value": "Login"
+                    },
+                    "value": "Login",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "button",
+                        "value": "Login",
+                        "attrs": {
+                            "type": "submit",
+                            "value": "Login"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "8dc2fcb6-913c-4367-b526-4ca7c4e477ef": {
+            "base_url": "https://leetcode.com",
+            "test_name": "LeetcodeSignUpFull",
+            "date_created": "2023-03-29 19:46:45",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "href": "signup.html",
+                        "title": "Sign Up"
+                    },
+                    "value": "Create Account",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "Create Account",
+                        "attrs": {
+                            "href": "signup.html",
+                            "title": "Sign Up"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "name": "username"
+                    },
+                    "actionarg": "testusertest",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "name": "username"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "password",
+                        "name": "first_password",
+                        "value": ""
+                    },
+                    "actionarg": "testuserpass",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "password",
+                            "name": "first_password",
+                            "value": ""
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "password",
+                        "placeholder": "Confirm Password"
+                    },
+                    "actionarg": "testuserpass",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "password",
+                            "placeholder": "Confirm Password"
+                        }
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "email",
+                        "placeholder": "email address"
+                    },
+                    "actionarg": "test@test.com",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "email",
+                            "placeholder": "email address"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "aa034ae0-c5e7-45b7-a2a7-d955d5f10ef2": {
+            "base_url": "https://amazon.com",
+            "test_name": "AmazonSearchandSell",
+            "date_created": "2023-03-29 19:59:40",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {
+                        "type": "search",
+                        "placeholder": "Search Amazon"
+                    },
+                    "actionarg": "RTX 4090\\n",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {
+                            "type": "search",
+                            "placeholder": "Search Amazon"
+                        }
+                    }
+                },
+                {
+                    "action": "click",
+                    "tag": "a",
+                    "description": {
+                        "name": "sell",
+                        "value": "sell",
+                        "href": ""
+                    },
+                    "value": "Sell",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "a",
+                        "value": "Sell",
+                        "attrs": {
+                            "name": "sell",
+                            "value": "sell",
+                            "href": ""
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "e1aaa3ea-21ca-4d67-b86b-174d8e287f7f": {
+            "base_url": "https://www.wikipedia.org/",
+            "test_name": "wikitest",
+            "date_created": "2023-06-09 14:07:58",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {},
+                    "actionarg": "Test Automation",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {}
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "84ead85f-835a-46f1-921e-a17af093061e": {
+            "base_url": "https://www.chess.com/",
+            "test_name": "chess1",
+            "date_created": "2023-06-09 15:05:41",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "click",
+                    "tag": "button",
+                    "description": {},
+                    "value": "Sign Up",
+                    "actionarg": "",
+                    "descdict": {
+                        "tag": "button",
+                        "value": "Sign Up",
+                        "attrs": {}
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {},
+                    "actionarg": "pepehands123",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {}
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {},
+                    "actionarg": "pepehands123@gmail.com",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {}
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {},
+                    "actionarg": "Password123!@",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {}
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "e32b3284-dfa8-4117-b296-07979eb4a86b": {
+            "base_url": "http://localhost:8000",
+            "test_name": "TestA1",
+            "date_created": "2023-06-09 22:59:25",
+            "last_run_status": "N/A",
+            "sentences": [
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {},
+                    "actionarg": "alpha",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {}
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {},
+                    "actionarg": "beta",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {}
+                    }
+                },
+                {
+                    "action": "send_keys",
+                    "tag": "input",
+                    "description": {},
+                    "actionarg": "Hello World",
+                    "value": "",
+                    "descdict": {
+                        "tag": "input",
+                        "value": "",
+                        "attrs": {}
+                    }
+                }
+            ]
+        }
+    }
+]

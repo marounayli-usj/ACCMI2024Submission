@@ -1,0 +1,16 @@
+beautifulsoup4==4.12.0
+Flask==2.2.3
+Flask_Cors==3.0.10
+Flask_SocketIO==5.3.3
+fuzzywuzzy==0.18.0
+gevent_socketio==0.3.6
+Jinja2==3.0.3
+matplotlib==3.6.0
+numpy==1.21.5
+openai==0.27.2
+Pillow==9.4.0
+python_Levenshtein==0.20.9
+requests==2.25.1
+scikit_learn==1.2.2
+selenium==4.8.3
+sentence_transformers==2.2.2
