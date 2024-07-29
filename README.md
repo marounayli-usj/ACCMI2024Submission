@@ -2,7 +2,7 @@
 
 ## Intro ##
 
-This is work is attached alongside the submission entitled "Web Testing Using Restricted Natural Languague" submitted for review for SISAP 2023.
+This is work is attached alongside the submission entitled "Web Testing Using Restricted Natural Languague" submitted for review for ACCMI 2024
 
 
 ## High Level Structure ##
